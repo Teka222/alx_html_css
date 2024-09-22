@@ -1,39 +1,57 @@
-body {
-    display: flex;
-    flex-direction: column;
-    margin: 0;
-    padding: 0;
-    font-family: Arial, sans-serif;
+* Styling the logo in the header */
+ul li.logo {
+    font-size: 2rem;  /* Makes the logo bigger */
+    color: red;  /* Changes the logo color */
+    padding-right: 20px;  /* Adds space between the logo and the menu items */
 }
 
-/* Main container: aligns article and aside horizontally */
-main {
-    display: flex;
-    flex-direction: row;
-    flex: auto;
+/* Custom background and text colors */
+body {
+    background-color: #f0f8ff;
+    color: #333;
+}
+
+header {
+    background-color: #0044cc;  /* Changes header background */
+    color: white;
     padding: 20px;
 }
 
-/* Article takes 2/3 of the width */
-article {
-    flex: 2;
-    padding: 10px;
-    background-color: #f0f0f0;
-    overflow-y: auto;
+header a {
+    color: white;
+    text-decoration: none;
+    padding: 0 15px;
 }
 
-/* Aside takes 1/3 of the width */
-aside {
-    flex: 1;
-    padding: 10px;
-    background-color: #d0d0d0;
-    overflow-y: auto;
-}
-
-/* Header and footer styles */
-header, footer {
+footer {
     background-color: #333;
     color: white;
-    text-align: center;
     padding: 20px;
+    text-align: center;
+}
+
+/* Article custom styling */
+article {
+    background-color: #e6f7ff;
+    border: 2px solid #0044cc;
+    padding: 20px;
+    border-radius: 10px;  /* Rounded corners */
+}
+
+aside {
+    background-color: #d9d9d9;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+article h2 {
+    color: #0044cc;
+}
+
+/* Article paragraph custom font and layout */
+article p {
+    font-family: 'Arial', sans-serif;
+    font-size: 1.1rem;
+    line-height: 1.6;
+    margin-bottom: 15px;
 }
