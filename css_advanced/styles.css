@@ -224,4 +224,44 @@ section#section1 p {
 /* Optional: Show the answer on question click */
 .faq-item.active p {
     display: block; /* Show answer when active */
+}/* Footer Section */
+.footer {
+    background-color: #YOUR_BACKGROUND_COLOR; /* Replace with actual color */
+    color: #YOUR_TEXT_COLOR; /* Replace with actual text color */
+    padding: 20px; /* Adjust padding based on design */
+    text-align: center; /* Center text in the footer */
+    font-size: 0.9em; /* Adjust font size */
+}
+
+.footer .footer-content {
+    display: flex; /* Flexbox for layout */
+    flex-direction: column; /* Column layout */
+    align-items: center; /* Center items */
+}
+
+.footer .footer-links {
+    margin: 15px 0; /* Space above and below links */
+}
+
+.footer .footer-links a {
+    color: #YOUR_LINK_COLOR; /* Replace with actual link color */
+    text-decoration: none; /* Remove underline */
+    margin: 0 10px; /* Space between links */
+}
+
+.footer .footer-links a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+
+.footer .social-icons {
+    margin-top: 10px; /* Space above social icons */
+}
+
+.footer .social-icons img {
+    width: 25px; /* Adjust size of social icons */
+    margin: 0 5px; /* Space between icons */
+}
+
+.footer .footer-bottom {
+    margin-top: 20px; /* Space above copyright notice */
 }
