@@ -182,3 +182,46 @@ section#section1 p {
 
 .membership .option button:hover {
     background-color: #YOUR_BUTTON_HOVER_COLOR; /* Replace with hover color */
+/* FAQ Section */
+.faq {
+    background-color: #YOUR_BACKGROUND_COLOR; /* Replace with actual color */
+    padding: 40px; /* Adjust padding based on design */
+    text-align: center; /* Center text within the section */
+}
+
+.faq h2 {
+    font-size: 2em; /* Adjust size based on Figma */
+    color: #YOUR_HEADING_COLOR; /* Replace with actual color */
+    margin-bottom: 20px; /* Space below the heading */
+}
+
+.faq-item {
+    background-color: #YOUR_ITEM_BACKGROUND_COLOR; /* Replace with actual color */
+    border: 1px solid #YOUR_BORDER_COLOR; /* Optional: border */
+    border-radius: 8px; /* Rounded corners */
+    margin: 15px 0; /* Space between items */
+    padding: 15px; /* Space inside each FAQ item */
+    transition: background-color 0.3s; /* Smooth background color change */
+}
+
+.faq-item:hover {
+    background-color: #YOUR_HOVER_COLOR; /* Replace with hover color */
+}
+
+.faq-item h3 {
+    font-size: 1.5em; /* Adjust size based on Figma */
+    color: #YOUR_QUESTION_COLOR; /* Replace with actual color */
+    cursor: pointer; /* Change cursor to pointer for clickable questions */
+}
+
+.faq-item p {
+    font-size: 1em; /* Adjust size based on Figma */
+    color: #YOUR_ANSWER_COLOR; /* Replace with actual color */
+    display: none; /* Hide answers initially */
+    margin-top: 10px; /* Space above answer */
+}
+
+/* Optional: Show the answer on question click */
+.faq-item.active p {
+    display: block; /* Show answer when active */
+}
