@@ -78,4 +78,44 @@ section#section1 p {
     font-weight: bold; /* Make the author name bold */
     margin-top: 10px; /* Space between quote and author */
     color: #YOUR_AUTHOR_COLOR; /* Replace with actual color */
+}/* Videos List Section */
+.videos-list {
+    background-color: #YOUR_BACKGROUND_COLOR; /* Replace with actual color */
+    padding: 20px; /* Adjust padding as needed */
+    display: flex; /* Use flexbox for layout */
+    flex-wrap: wrap; /* Allows items to wrap to the next line */
+    justify-content: space-between; /* Space between video items */
+}
+
+.video-item {
+    background-color: #YOUR_ITEM_BACKGROUND_COLOR; /* Replace with actual color */
+    border: 1px solid #YOUR_BORDER_COLOR; /* Optional: border around video items */
+    border-radius: 8px; /* Optional: rounded corners */
+    margin: 10px; /* Space between items */
+    width: calc(30% - 20px); /* Adjust width based on design */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Optional: shadow for depth */
+    transition: transform 0.3s; /* Smooth hover effect */
+}
+
+.video-item:hover {
+    transform: scale(1.05); /* Slightly scale up on hover */
+}
+
+.video-item img {
+    width: 100%; /* Make image fill the container */
+    height: auto; /* Maintain aspect ratio */
+    border-top-left-radius: 8px; /* Match rounded corners */
+    border-top-right-radius: 8px; /* Match rounded corners */
+}
+
+.video-item h3 {
+    font-size: 1.2em; /* Adjust based on Figma */
+    color: #YOUR_TITLE_COLOR; /* Replace with actual color */
+    padding: 10px; /* Space around title */
+}
+
+.video-item p {
+    font-size: 0.9em; /* Adjust based on Figma */
+    color: #YOUR_TEXT_COLOR; /* Replace with actual color */
+    padding: 0 10px 10px; /* Space around text */
 }
