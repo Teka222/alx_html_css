@@ -55,3 +55,27 @@ section#section1 p {
     font-size: 1em; /* Adjust size based on Figma */
     color: #YOUR_TEXT_COLOR; /* Replace with actual color */
     line-height: 1.5; /* Makes text easier to read */
+/* Common Styles */
+.quote {
+    font-family: 'Source Sans Pro', sans-serif; /* Ensure consistent font */
+    color: #YOUR_QUOTE_TEXT_COLOR; /* Replace with actual color */
+    text-align: center; /* Center the text */
+    padding: 30px; /* Add padding for spacing */
+    margin: 20px 0; /* Space above and below */
+    border-left: 5px solid #YOUR_BORDER_COLOR; /* Optional: left border */
+    background-color: #YOUR_BACKGROUND_COLOR; /* Optional: background color */
+    font-style: italic; /* Italic for quote style */
+}
+
+/* Specific Styles for the Quote Text */
+.quote p {
+    font-size: 1.5em; /* Adjust based on Figma */
+    line-height: 1.6; /* Easier to read */
+}
+
+/* Author Styles (if applicable) */
+.quote .author {
+    font-weight: bold; /* Make the author name bold */
+    margin-top: 10px; /* Space between quote and author */
+    color: #YOUR_AUTHOR_COLOR; /* Replace with actual color */
+}
