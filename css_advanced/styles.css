@@ -118,4 +118,67 @@ section#section1 p {
     font-size: 0.9em; /* Adjust based on Figma */
     color: #YOUR_TEXT_COLOR; /* Replace with actual color */
     padding: 0 10px 10px; /* Space around text */
+}/* Membership Section */
+.membership {
+    background-color: #YOUR_BACKGROUND_COLOR; /* Replace with actual color */
+    padding: 40px; /* Adjust padding based on design */
+    text-align: center; /* Center text within the section */
 }
+
+.membership h2 {
+    font-size: 2em; /* Adjust size based on Figma */
+    color: #YOUR_HEADING_COLOR; /* Replace with actual color */
+    margin-bottom: 20px; /* Space below the heading */
+}
+
+.membership p {
+    font-size: 1em; /* Adjust size based on Figma */
+    color: #YOUR_TEXT_COLOR; /* Replace with actual color */
+    line-height: 1.6; /* Easier to read */
+    margin-bottom: 30px; /* Space below the paragraph */
+}
+
+.membership .membership-options {
+    display: flex; /* Flexbox for layout */
+    justify-content: center; /* Center the membership options */
+    flex-wrap: wrap; /* Allow items to wrap on smaller screens */
+}
+
+.membership .option {
+    background-color: #YOUR_OPTION_BACKGROUND_COLOR; /* Replace with actual color */
+    border: 1px solid #YOUR_BORDER_COLOR; /* Optional: border */
+    border-radius: 8px; /* Rounded corners */
+    padding: 20px; /* Space inside each option */
+    margin: 10px; /* Space between options */
+    width: 300px; /* Fixed width for each option */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Optional: shadow for depth */
+    transition: transform 0.3s; /* Smooth hover effect */
+}
+
+.membership .option:hover {
+    transform: scale(1.05); /* Slightly scale up on hover */
+}
+
+.membership .option h3 {
+    font-size: 1.5em; /* Adjust size based on Figma */
+    color: #YOUR_OPTION_TITLE_COLOR; /* Replace with actual color */
+}
+
+.membership .option p {
+    font-size: 0.9em; /* Adjust size based on Figma */
+    color: #YOUR_OPTION_TEXT_COLOR; /* Replace with actual color */
+    margin: 10px 0; /* Space above and below */
+}
+
+.membership .option button {
+    background-color: #YOUR_BUTTON_COLOR; /* Replace with actual color */
+    color: #FFFFFF; /* Text color for button */
+    border: none; /* Remove default border */
+    border-radius: 5px; /* Rounded corners */
+    padding: 10px 20px; /* Space inside button */
+    cursor: pointer; /* Change cursor to pointer on hover */
+    transition: background-color 0.3s; /* Smooth background color change */
+}
+
+.membership .option button:hover {
+    background-color: #YOUR_BUTTON_HOVER_COLOR; /* Replace with hover color */
