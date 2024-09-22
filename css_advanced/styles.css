@@ -1,7 +1,57 @@
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your Project Title</title>
-    <link rel="stylesheet" href="styles.css"> <!-- This line links to your CSS file -->
-    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet">
-</head>
+/* Global Styles */
+body {
+    font-family: 'Source Sans Pro', sans-serif; /* Change to your selected font */
+    margin: 0;
+    padding: 0;
+}
+
+/* Header Styles */
+header {
+    background-color: #YOUR_HEADER_COLOR; /* Replace with actual color */
+    padding: 20px; /* Adjust as per Figma */
+    display: flex;
+    justify-content: space-between; /* Space between logo and navigation */
+    align-items: center; /* Center items vertically */
+}
+
+header img {
+    width: 100px; /* Adjust based on Figma */
+    height: auto; /* Keeps aspect ratio */
+}
+
+nav ul {
+    list-style-type: none; /* Remove bullet points */
+    display: flex; /* Horizontal layout */
+    padding: 0; /* Remove default padding */
+}
+
+nav ul li {
+    margin: 0 15px; /* Space between navigation items */
+}
+
+nav ul li a {
+    text-decoration: none; /* Remove underline from links */
+    color: #YOUR_LINK_COLOR; /* Replace with actual color */
+    font-weight: bold; /* Adjust weight if needed */
+}
+
+/* First Section Styles */
+main {
+    padding: 40px; /* Adjust padding based on Figma */
+}
+
+section#section1 {
+    background-color: #YOUR_SECTION_BACKGROUND_COLOR; /* Replace with actual color */
+    padding: 20px; /* Adjust as per Figma */
+    border-radius: 10px; /* Rounded corners if applicable */
+}
+
+section#section1 h1 {
+    font-size: 2em; /* Adjust size based on Figma */
+    color: #YOUR_HEADING_COLOR; /* Replace with actual color */
+}
+
+section#section1 p {
+    font-size: 1em; /* Adjust size based on Figma */
+    color: #YOUR_TEXT_COLOR; /* Replace with actual color */
+    line-height: 1.5; /* Makes text easier to read */
